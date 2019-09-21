@@ -1,4 +1,6 @@
-# Cypress PSoC6 Dual Core Project boilerplate for VSCode
+# Developing for Cypress PSoC6 on VSCode
+
+### Project boilerplate
 
 1. Prerequisites
     - VS Code
