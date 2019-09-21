@@ -26,20 +26,17 @@
 1. Configure
     - Command Palette (CTRL+SHIFT+P) > type: JSON > Click Preferences: Open Settings (JSON)
     - Add the following lines to the VS Code User settings:
-    ```
-    "C_Cpp.default.configurationProvider": "vector-of-bool.cmake-tools",
-    "C_Cpp.default.compilerPath": "arm-none-eabi-gcc",
-    "C_Cpp.loggingLevel":"Debug",
-    // Location of the cmake executable
-    "cmake.cmakePath": "/Applications/CMake.app/Contents/bin/cmake",
-    //"cmake.cmakePath": "C:/Program Files/CMake/bin/cmake.exe",
-    // Location of the OpenOCD executable
-    "cortex-debug.openocdPath": "/Applications/ModusToolbox_1.1/tools/openocd-2.1/bin/openocd",
-    //"cortex-debug.openocdPath": "C:/ModusToolbox_1.1/tools/openocd-2.01/bin/openocd.exe",
-    // Location of the JLink GDB Server (if used)
-    "cortex-debug.JLinkGDBServerPath": "/Applications/SEGGER/JLink_V644f/JLinkGDBServerCLExe",
-    "cmake.configureOnOpen": true,
-    "cmake.sourceDirectory": "${workspaceRoot}"
+    ```json
+    {
+        "C_Cpp.default.configurationProvider": "vector-of-bool.cmake-tools",
+        "C_Cpp.default.compilerPath": "arm-none-eabi-gcc",
+        "C_Cpp.loggingLevel":"Debug",
+        "cmake.cmakePath": "/Applications/CMake.app/Contents/bin/cmake",
+        "cortex-debug.openocdPath": "/Applications/ModusToolbox_1.1/tools/openocd-2.1/bin/openocd",
+        "cortex-debug.JLinkGDBServerPath": "/Applications/SEGGER/JLink_V644f/JLinkGDBServerCLExe",
+        "cmake.configureOnOpen": true,
+        "cmake.sourceDirectory": "${workspaceRoot}"
+    }
     ```
 1. Check
     - if make is installed by typing 'make -v' into the terminal window of VS Code
