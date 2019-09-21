@@ -35,7 +35,7 @@
         "C_Cpp.loggingLevel":"Debug",
         "cmake.cmakePath": "/Applications/CMake.app/Contents/bin/cmake",
         "cortex-debug.openocdPath": "/Applications/ModusToolbox_1.1/tools/openocd-2.1/bin/openocd",
-        "cortex-debug.JLinkGDBServerPath": "/Applications/SEGGER/JLink_V644f/JLinkGDBServerCLExe",
+        "cortex-debug.JLinkGDBServerPath": "/Applications/SEGGER/JLink_V650b/JLinkGDBServerCLExe",
         "cmake.configureOnOpen": true,
         "cmake.sourceDirectory": "${workspaceRoot}"
     }
