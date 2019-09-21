@@ -1,4 +1,4 @@
-# PSoC6 Dual Core Project for VS Code
+# Cypress PSoC6 Dual Core Project boilerplate for VSCode
 
 1. Prerequisites
     - VS Code
